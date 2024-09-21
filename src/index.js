@@ -14,7 +14,11 @@ root.render(
 
 const zoom = ReactDOM.createRoot(document.getElementById('zoom'))
 zoom.render(
-  <Demo honest="All poop comes out as pee, but pee doesn't always come out as poop."/>
+  <Demo honest="Watch and learn, learn to read and write."/>
 );
+
+const room = ReactDOM.createRoot(document.getElementById('room'))
+room.render(
+)
 
 reportWebVitals();
